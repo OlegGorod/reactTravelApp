@@ -1,0 +1,31 @@
+.trips {
+    padding: 60px 20px;
+}
+
+.trip-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, auto));
+    justify-content: center;
+    gap: 30px;
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.trip-card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 320px;
+    background-color: var(--color-white);
+    border-radius: 1px;
+    box-shadow: var(--shadow);
+}
+
+.trip-card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 30px;
+}
